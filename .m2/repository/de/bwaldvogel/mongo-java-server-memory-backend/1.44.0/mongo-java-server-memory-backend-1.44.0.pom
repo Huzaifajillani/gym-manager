@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.bwaldvogel</groupId>
+  <artifactId>mongo-java-server-memory-backend</artifactId>
+  <version>1.44.0</version>
+  <name>mongo-java-server</name>
+  <description>Fake implementation of MongoDB in Java that speaks the wire protocol</description>
+  <url>https://github.com/bwaldvogel/mongo-java-server</url>
+  <inceptionYear>2012</inceptionYear>
+  <licenses>
+    <license>
+      <name>The BSD License</name>
+      <url>http://www.opensource.org/licenses/bsd-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bwaldvogel</id>
+      <name>Benedikt Waldvogel</name>
+      <email>mail@bwaldvogel.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:bwaldvogel/mongo-java-server.git</connection>
+    <developerConnection>scm:git:git@github.com:bwaldvogel/mongo-java-server.git</developerConnection>
+    <url>git@github.com:bwaldvogel/mongo-java-server.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>de.bwaldvogel</groupId>
+      <artifactId>mongo-java-server-core</artifactId>
+      <version>1.44.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.7</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
